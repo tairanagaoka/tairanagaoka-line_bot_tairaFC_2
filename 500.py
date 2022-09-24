@@ -11,7 +11,7 @@ line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 
 def main():
     GROUP_ID = info['GROUP_ID']
-    messages=TextSendMessage(text="おはようございます。今日は金曜日ですね。お時間ある方はよろぴくです。")
+    messages=TextSendMessage(text="お疲れ様です!!月初になりますので次来る時は500円玉の準備をしといてもらえると助かります！！")
     line_bot_api.push_message(GROUP_ID,messages=messages)
     
     
